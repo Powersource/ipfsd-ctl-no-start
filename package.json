@@ -2,9 +2,9 @@
   "name": "ipfsd-ctl-no-start",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "go-ipfs-dep": "^0.4.14",
     "ipfsd-ctl": "^0.32.1"
+  },
+  "devDependencies": {
+    "electron": "^1.8.4"
   }
 }
